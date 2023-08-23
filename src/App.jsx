@@ -2,8 +2,8 @@ import { Counter } from "./components/01-Counter/Counter"
 import { InputText } from "./components/02-InputText/InputText"
 import { ToogleState } from './components/03-ToogleState/ToogleState'
 import { Areatext } from "./components/04-textArea/AreaText"
-
-
+import { State } from "./components/05-state/state"
+import { PapelOtijeraOpiedra } from "./components/PiedraPapelotijera/PiedraPapeloTijera"
 function App() {
   
   return (
@@ -11,7 +11,9 @@ function App() {
       {/* <Counter /> */}
        {/* <InputText /> */}
       {/* <ToogleState /> */} 
-      <Areatext/>
+      {/* <State/> */}
+      <PapelOtijeraOpiedra/>
+      {/* <Areatext/> */}
     </div>
   )
 }
